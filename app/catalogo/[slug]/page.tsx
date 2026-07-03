@@ -97,8 +97,8 @@ export default function ProductPage() {
 
           <div className="mt-4 flex items-center gap-3">
             <span className="text-3xl font-extrabold">{formatPrice(product.price)}</span>
-            {product.compareAtPrice && (
-              <span className="text-lg text-current/40 line-through">{formatPrice(product.compareAtPrice)}</span>
+            {product.promoNote && (
+              <span className="text-sm font-semibold text-galver-red">{product.promoNote}</span>
             )}
           </div>
 

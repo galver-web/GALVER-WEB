@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig, whatsappLink } from "@/lib/site";
 import { Instagram, Mail, MapPin, MessageCircle } from "lucide-react";
 
@@ -8,9 +9,10 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
           <div>
-            <h3 className="text-2xl font-extrabold">
-              GALVER<span className="text-galver-red">.</span>
-            </h3>
+            <div className="flex items-center gap-2">
+              <Image src="/images/brand/logo-badge.png" alt="Galver" width={44} height={44} className="object-contain" />
+              <h3 className="text-2xl font-extrabold">GALVER</h3>
+            </div>
             <p className="mt-3 max-w-xs text-sm text-current/70">
               Zapatillas de cuero premium hechas en Perú. Más de 30 años caminando junto a ti.
             </p>

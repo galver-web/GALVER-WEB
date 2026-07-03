@@ -21,9 +21,9 @@ export default function ProductCard({ product }: { product: Product }) {
           sizes="(max-width: 768px) 50vw, 25vw"
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        {product.compareAtPrice && (
+        {product.promoNote && (
           <span className="absolute left-3 top-3 rounded-full bg-galver-red px-2.5 py-1 text-xs font-bold text-white">
-            OFERTA
+            PROMO
           </span>
         )}
       </Link>
@@ -46,8 +46,8 @@ export default function ProductCard({ product }: { product: Product }) {
         <p className="line-clamp-2 text-xs text-current/60">{product.shortDescription}</p>
         <div className="mt-2 flex items-center gap-2">
           <span className="font-bold">{formatPrice(product.price)}</span>
-          {product.compareAtPrice && (
-            <span className="text-sm text-current/40 line-through">{formatPrice(product.compareAtPrice)}</span>
+          {product.promoNote && (
+            <span className="text-xs font-semibold text-galver-red">{product.promoNote}</span>
           )}
         </div>
         <Link

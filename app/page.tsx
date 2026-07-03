@@ -14,7 +14,7 @@ export default function HomePage() {
       {/* HERO */}
       <section className="relative flex min-h-[85vh] items-center overflow-hidden bg-galver-black text-white">
         <Image
-          src="https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=2000"
+          src="/images/products/fc-rojo-onfoot-2.jpg"
           alt="Zapatillas Galver de cuero premium"
           fill
           priority
@@ -74,7 +74,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           <Link href="/catalogo?categoria=urbano" className="group relative overflow-hidden rounded-3xl">
             <Image
-              src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=1200"
+              src="/images/products/urbano-negro-naranja-2.jpg"
               alt="Línea Urbana Galver"
               width={800}
               height={600}
@@ -88,7 +88,7 @@ export default function HomePage() {
           </Link>
           <Link href="/catalogo?categoria=galver-fc" className="group relative overflow-hidden rounded-3xl">
             <Image
-              src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=1200"
+              src="/images/products/fc-vino-studio.jpg"
               alt="Galver FC"
               width={800}
               height={600}

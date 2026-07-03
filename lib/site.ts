@@ -8,8 +8,8 @@ export const siteConfig = {
   whatsappMessage: "Hola Galver, quiero más información sobre sus zapatillas 👟",
   email: "ventas@galver.pe",
   address: "Av. Ejemplo 123, Lima, Perú", // TODO: reemplazar con dirección real de tienda
-  instagram: "https://instagram.com/galver.pe",
-  tiktok: "https://tiktok.com/@galver.pe",
+  instagram: "https://instagram.com/calzado.galver",
+  tiktok: "https://tiktok.com/@zapatillasgalver",
   facebook: "https://facebook.com/galver.pe",
   keywords: [
     "zapatillas de cuero Perú",

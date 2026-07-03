@@ -20,7 +20,7 @@ export default function AboutPage() {
     <>
       <section className="relative flex min-h-[50vh] items-center overflow-hidden bg-galver-black text-white">
         <Image
-          src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=2000"
+          src="/images/products/fc-negro-dorado-onfoot.jpg"
           alt="Taller de fabricación Galver"
           fill
           className="object-cover opacity-40"

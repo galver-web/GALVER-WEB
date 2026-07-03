@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -36,8 +37,9 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-black/5 bg-white/90 backdrop-blur dark:border-white/10 dark:bg-galver-black/90">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="text-2xl font-extrabold tracking-tight">
-          GALVER<span className="text-galver-red">.</span>
+        <Link href="/" className="flex items-center gap-2">
+          <Image src="/images/brand/logo-badge.png" alt="Galver" width={40} height={40} className="h-10 w-10 object-contain" priority />
+          <span className="text-xl font-extrabold tracking-tight">GALVER</span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
