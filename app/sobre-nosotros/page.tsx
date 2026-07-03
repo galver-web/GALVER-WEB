@@ -34,7 +34,7 @@ export default function AboutPage() {
       <section className="mx-auto max-w-4xl px-4 py-20 sm:px-6 lg:px-8">
         <p className="text-lg leading-relaxed text-current/80">
           Zapatillas Galver nació de una convicción simple: el calzado peruano puede competir en calidad y diseño con
-          cualquier marca internacional. Desde nuestros inicios, bajo la dirección de Paúl Galván Gonzalo, hemos
+          cualquier marca internacional. Desde nuestros inicios, guiados por la familia Galván, hemos
           apostado por el cuero legítimo, la fabricación local y el detalle artesanal en cada par que sale de nuestro taller.
         </p>
         <p className="mt-6 text-lg leading-relaxed text-current/80">

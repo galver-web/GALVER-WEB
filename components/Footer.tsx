@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { siteConfig, whatsappLink } from "@/lib/site";
+import { siteConfig, whatsappLink, whatsappLinkSecondary } from "@/lib/site";
 import { Instagram, Mail, MapPin, MessageCircle } from "lucide-react";
 
 export default function Footer() {
@@ -44,7 +44,12 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <MessageCircle size={16} className="text-galver-red" />
                 <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className="hover:text-galver-red">
-                  WhatsApp
+                  WhatsApp: 904 688 077
+                </a>
+              </li>
+              <li className="flex items-center gap-2 pl-6">
+                <a href={whatsappLinkSecondary()} target="_blank" rel="noopener noreferrer" className="hover:text-galver-red">
+                  905 441 128
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -66,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-black/10 pt-6 text-xs text-current/60 dark:border-white/10 sm:flex-row">
-          <p>© {new Date().getFullYear()} Galver — R.S. Incaldep S.A.C. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Galver. Todos los derechos reservados.</p>
           <p>Hecho en Perú 🇵🇪 con orgullo.</p>
         </div>
       </div>
